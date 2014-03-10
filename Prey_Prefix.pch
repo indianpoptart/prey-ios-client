@@ -1,0 +1,13 @@
+//
+// Prefix header for all source files of the 'Prey' target in the 'Prey' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+	#import <CoreLocation/CoreLocation.h>
+	#import "LoggerCommon.h"
+	#import "LoggerClient.h"
+    #import "PreyLogger.h"
+    #import <QuartzCore/QuartzCore.h>
+#endif
